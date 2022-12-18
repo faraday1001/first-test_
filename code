@@ -1,0 +1,17 @@
+import time
+
+# İşlemlerin süresini ölçmek için başlangıç zamanını kaydedin
+baslangic = time.perf_counter()
+
+# Buraya hızını ölçmek istediğiniz işlemleri yazın
+# Örneğin:
+for i in range(1000000):
+  print(i)
+
+# İşlemlerin süresini ölçmek için bitiş zamanını kaydedin
+bitis = time.perf_counter()
+# İşlemlerin ne kadar sürdüğünü hesaplayın
+sure = bitis - baslangic
+
+# Kullanıcıya süreyi gösteren bir mesaj yazdırın
+print(f"İşlemler {sure:.5f} saniye sürdü.")
