@@ -1,3 +1,4 @@
+#bu kod bilgisayarınızın hıza hakında biraz bilgi verir
 import time
 
 # İşlemlerin süresini ölçmek için başlangıç zamanını kaydedin
